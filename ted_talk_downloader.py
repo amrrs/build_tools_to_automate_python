@@ -2,8 +2,13 @@ import requests #getting content of the TED Talk page
 from bs4 import BeautifulSoup #web scraping
 import re #Regular Expression pattern matching
 from urllib.request import urlretrieve #downloading mp4
+import sys #for argument parsing
 
-url = "https://www.ted.com/talks/malcolm_gladwell_on_spaghetti_sauce"
+
+if len(sys.argv) > 1:
+    url = sys.argv[1]
+else:
+    sys.exit("Error: Please enter the TED Talk URL")
 
 #url = "https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection"
 
