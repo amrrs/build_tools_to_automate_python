@@ -1,11 +1,17 @@
-import requests
-from bs4 import BeautifulSoup
+import requests # http requests
+
+from bs4 import BeautifulSoup # web scraping
 # Send the mail
 import smtplib
+# email body
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+# system date and time manipulation
 import datetime
+
 now = datetime.datetime.now()
+
+# email content placeholder
 
 content = ''
 
@@ -41,7 +47,7 @@ SERVER = 'smtp.gmail.com' # "your smtp server"
 PORT = 587 # your port number
 FROM =  '' # "your from email id"
 TO = '' # "your to email ids"  # can be a list
-PASS = '' # "your email id's password"
+PASS = '*****' # "your email id's password"
 
 # fp = open(file_name, 'rb')
 # Create a text/plain message
