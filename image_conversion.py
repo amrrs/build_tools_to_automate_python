@@ -1,4 +1,5 @@
-from PIL import Image  # Python Image Library - Image Processing
+# pip install Pillow
+from PIL import Image  # Python Image Library - Image Processing 
 
 import glob
 
