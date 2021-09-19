@@ -42,6 +42,7 @@ content +=('<br><br>End of Message')
 print('Composing Email...')
 
 # update your email details
+# make sure to update the Google Low App Access settings before
 
 SERVER = 'smtp.gmail.com' # "your smtp server"
 PORT = 587 # your port number
