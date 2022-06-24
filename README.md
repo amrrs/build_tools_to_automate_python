@@ -11,3 +11,7 @@ Python Libraries that you'd end up using in these projects
 * re
 * PDFminer 
 * gensim (Summarizer) 
+
+
+Note: Google has changed the way less secure apps are handeld. It's critical for the Email Automation project in the course. I'm exploring possible alternatives for that. 
+
